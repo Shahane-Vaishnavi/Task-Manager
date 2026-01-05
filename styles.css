@@ -61,9 +61,9 @@ header h1{
     justify-content:space-between; 
     padding:.6rem .75rem; 
     border-radius:6px; 
-    border:1px solid #f2fac1; 
+    border:1px solid #efb8f9; 
     margin-bottom:.5rem; 
-    background:#f1bbed
+    background:#f9f8f9
 }
 
 .task .left{
