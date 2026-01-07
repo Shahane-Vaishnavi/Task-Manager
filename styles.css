@@ -94,3 +94,21 @@ footer{
     color:var(--muted); 
     font-size:.85rem
 }
+
+/* Colorful gradient animated title */
+header h1.title{
+    margin:0 0 1rem;
+    font-size:1.8rem;
+    background: linear-gradient(90deg, #ff5f6d, #ffc371, #7bdff5, #9b5fff, #ff5f6d);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 6s ease infinite;
+}
+
+@keyframes rainbow{
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
